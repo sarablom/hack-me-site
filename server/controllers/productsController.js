@@ -1,6 +1,5 @@
 const ErrorResponse = require("../utils/errorRepsonse");
 const Product = require("../models/ProductModel");
-const { findByIdAndUpdate } = require("../models/ProductModel");
 
 async function getAllProducts(req, res, next) {
   try {
